@@ -1,0 +1,25 @@
+import example.*
+
+describe "Tests Brawl" {
+	//var soldadoArmado = new Soldado(vidasCobradas = 30,armas = 10)
+	var guerrera1 = new Guerrera ( agilidad =1000, fuerza =2000, estrategia = 1, copas = 30)
+	var arquero1 = new Arquero ( agilidad =2000, fuerza =1000, rango = 200, copas = 30)
+	var ballestero1 = new Ballestero ( agilidad =3000, fuerza =1000, rango = 300 , copas = 30)
+	
+	var mision1 = new MisionIndividual (participantes =[ballestero1], dificultad = 2, tipoMision = normal)
+	var mision2 = new MisionEquipo (participantes =[ballestero1,arquero1,guerrera1], dificultad = 2, tipoMision = normal)
+	
+	
+	
+	
+	
+	
+	
+	test "Mision individual es superada" {
+		mision1.realizarse()
+		
+		assert.equals(34,ballestero1.copas())
+	
+	}
+	
+}
