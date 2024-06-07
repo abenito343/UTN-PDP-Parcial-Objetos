@@ -1,7 +1,6 @@
 # Parcial de Objetos - Paradigmas de Programación UTN.BA Jueves Mañana 2021
 
-- **Instrucciones** para rendir parcial [aquí](https://docs.google.com/document/d/1Z4JKRK4F_HavhwBCmfbxcLzsur_Bg-kBK5nW575htms/edit#)
-- El **enunciado** será provisto por Discord.
+-  [Enunciado](https://docs.google.com/document/d/e/2PACX-1vSbhqKLyiv4aRD7cAzI7N0X83rOSXX0jv1M3qjtKVFywhoxQxdZR2eMXPNVEHWivwswRk7WE6Hr6GeY/pub)
 - Ya se puede dar el presente, sencillamente completando lo siguiente y haciendo commit & push:
 
 ## Estudiante
